@@ -1,0 +1,555 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'zh' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/rhein/My project (15)
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+2770
+Successfully changed project path to: C:/Users/rhein/My project (15)
+C:/Users/rhein/My project (15)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1428] Host "[IP] 192.168.37.1 [Port] 0 [Flags] 2 [Guid] 269041143 [EditorId] 269041143 [Version] 1048832 [Id] WindowsEditor(7,550W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1428] Host "[IP] 192.168.37.1 [Port] 0 [Flags] 2 [Guid] 269041143 [EditorId] 269041143 [Version] 1048832 [Id] WindowsEditor(7,550W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 123.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rhein/My project (15)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6950 XT (ID=0x73a5)
+    Vendor:   ATI
+    VRAM:     16311 MB
+    Driver:   32.0.12033.1030
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.029686 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 113.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.862 seconds
+Domain Reload Profiling:
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (559ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019383 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\rhein\My project (15)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\rhein\My project (15)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1338ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1047ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3895 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (300.2 KB). Loaded Objects now: 4347.
+Memory consumption went from 152.7 MB to 152.4 MB.
+Total: 3.163600 ms (FindLiveObjects: 0.216300 ms CreateObjectMapping: 0.125400 ms MarkObjects: 2.667600 ms  DeleteObjects: 0.153500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22931.838699 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36db70a3e20387ec448f71a897a06ac3') in 0.110442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1349.570973 seconds.
+  path: Assets/resource/data/New Item Data.asset
+  artifactKey: Guid(fd0cbe2333cd910428d86472f5129c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/data/New Item Data.asset using Guid(fd0cbe2333cd910428d86472f5129c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff07f206b8b761b18c636e0302b485fa') in 0.013489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.247425 seconds.
+  path: Assets/resource/data/SeedCarot.asset
+  artifactKey: Guid(fd0cbe2333cd910428d86472f5129c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/data/SeedCarot.asset using Guid(fd0cbe2333cd910428d86472f5129c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd503bda3081e436c3eacd4ad946122fd') in 0.008481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.434576 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/01.png
+  artifactKey: Guid(85beef2528977144f892d92acf19a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/01.png using Guid(85beef2528977144f892d92acf19a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8e739576234f2712008989bc7ce700') in 0.030651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/03.png
+  artifactKey: Guid(ae2375876e61efc4b944451214c4a833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/03.png using Guid(ae2375876e61efc4b944451214c4a833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a81b5e0aea3a04ebf7d8b17a0c453a4') in 0.019192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/04.png
+  artifactKey: Guid(4865cd28ebdf6e149af9ad62f41da47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/04.png using Guid(4865cd28ebdf6e149af9ad62f41da47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7369d06948e5436d0ea5f4f526341655') in 0.019316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/05.png
+  artifactKey: Guid(2b0c55a82573db14ab548a016f8dfae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/05.png using Guid(2b0c55a82573db14ab548a016f8dfae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b15a2547db6170df662a084eed19577') in 0.017289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.506341 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/06.png
+  artifactKey: Guid(64752f39fb4cc99478a453dfc3dae3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/06.png using Guid(64752f39fb4cc99478a453dfc3dae3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8990e58593c08397d70614dbb30d33be') in 0.020415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049430 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png
+  artifactKey: Guid(28b58d2e025cb004a99d00de3eff9bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png using Guid(28b58d2e025cb004a99d00de3eff9bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2119e0265319c418ad49fc5a8f22e59a') in 0.137154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Red_(NoArms).png
+  artifactKey: Guid(7e0df6d0f1b1a5c409a27d2a805e0884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Red_(NoArms).png using Guid(7e0df6d0f1b1a5c409a27d2a805e0884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901d3d9bb7ffffb85f40af19f198dacc') in 0.042950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Banner_Vertical.png
+  artifactKey: Guid(4d2fc73fe45cce848b0cc0dc1efc1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Banner_Vertical.png using Guid(4d2fc73fe45cce848b0cc0dc1efc1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f74ec557ebca08ef3b0757d771576a') in 0.021167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Yellow.png
+  artifactKey: Guid(736170ef7734fd84a8ec544a727be1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Yellow.png using Guid(736170ef7734fd84a8ec544a727be1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d18accaba7d25e50ce2210ede21f96') in 0.047414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Purple_(NoArms).png
+  artifactKey: Guid(c2340e35f18cc4f419d2d6920cc92feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Purple_(NoArms).png using Guid(c2340e35f18cc4f419d2d6920cc92feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2331aa2cd8fc9d5b4b910fad6bad2ca4') in 0.039031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Red/Archer_Red.png
+  artifactKey: Guid(b4d388b0c88574041bb15ba3c8136759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Red/Archer_Red.png using Guid(b4d388b0c88574041bb15ba3c8136759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e559b8e414f19e59fa420289ce031e') in 0.115529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/Tiny RPG Forest/Artwork/sprites/misc/arrow.png
+  artifactKey: Guid(95406b6737b66479a80d172766f8bac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny RPG Forest/Artwork/sprites/misc/arrow.png using Guid(95406b6737b66479a80d172766f8bac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a862352a6e7b0953ceb3724c0118fab') in 0.020804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Yellow_(NoArms).png
+  artifactKey: Guid(cadd50d8f0d0d314ab4e7e0836547b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Yellow_(NoArms).png using Guid(cadd50d8f0d0d314ab4e7e0836547b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5669449fddc818c88cfc42a27daeb009') in 0.036030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Banner_Connection_Down.png
+  artifactKey: Guid(e77e0a44605cfaa48b8b65a18fea84e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Banner_Connection_Down.png using Guid(e77e0a44605cfaa48b8b65a18fea84e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28d29edc59c49e794009836e9989aa9') in 0.019555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Purple.png
+  artifactKey: Guid(ed91eaaa6ffe22d458d6303f1cc8bf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Purple.png using Guid(ed91eaaa6ffe22d458d6303f1cc8bf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a39614b85fbfc95a297b7ce6c42d53') in 0.050776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.434560 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png
+  artifactKey: Guid(0204bd205a0c2974689777dcc0dd3282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png using Guid(0204bd205a0c2974689777dcc0dd3282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5c6f7ede064b518e6a65a5b3315f91') in 0.048192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png
+  artifactKey: Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png using Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f865d46f054acd24bc2bf8dfd54945eb') in 0.019514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@4x.png
+  artifactKey: Guid(daf2ab606d4db0d4f9ecf4c02137d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@4x.png using Guid(daf2ab606d4db0d4f9ecf4c02137d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b62abc4a1ad0347cfba9ea66cbca473') in 0.023543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/full version/enemies/bat/bat_red.png
+  artifactKey: Guid(8392ef03d20b66a4fac7e9858cf74a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/full version/enemies/bat/bat_red.png using Guid(8392ef03d20b66a4fac7e9858cf74a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685710de196dc80e02f7df02ad6bd831') in 0.019246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Yellow/Barrel_Yellow.png
+  artifactKey: Guid(cbc6ab7ac6caee54caef6c040dcf731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Yellow/Barrel_Yellow.png using Guid(cbc6ab7ac6caee54caef6c040dcf731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a01c3bed22c0aee29b50d83cbf84a3d') in 0.043423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/resource/full version/enemies/bat/bat_black.png
+  artifactKey: Guid(4d45de230aa38f246ae0ebcbf776b9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/full version/enemies/bat/bat_black.png using Guid(4d45de230aa38f246ae0ebcbf776b9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f92aa8c3abeb1b51a20a64dc2600236') in 0.018635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/resource/full version/enemies/bat/bat red gifs/bat_red_walk_up.gif
+  artifactKey: Guid(d9140086be2b3094b86fd84d37485638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/full version/enemies/bat/bat red gifs/bat_red_walk_up.gif using Guid(d9140086be2b3094b86fd84d37485638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f662cc5fe2cce3f9590d1668a186f2') in 0.019075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/resource/full version/enemies/bat/bat purple gifs/bat_purple_walk_down.gif
+  artifactKey: Guid(041a361b212c5cf48a057f93d97ec093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/full version/enemies/bat/bat purple gifs/bat_purple_walk_down.gif using Guid(041a361b212c5cf48a057f93d97ec093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a41c4b71067cf4a09546647c88c249d') in 0.016885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@2x.png
+  artifactKey: Guid(d6a44ab95b0def041a7929981a2c23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@2x.png using Guid(d6a44ab95b0def041a7929981a2c23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2194572cf22b747a78d576e92b54978c') in 0.016850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/resource/full version/enemies/bat/bat purple gifs/bat_purple_walk_left.gif
+  artifactKey: Guid(09a00b766134c994fba89787dbd8b0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/full version/enemies/bat/bat purple gifs/bat_purple_walk_left.gif using Guid(09a00b766134c994fba89787dbd8b0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527d3588148cca362a7f013b9a1cad03') in 0.018700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/resource/full version/enemies/bat/bat purple gifs/bat_purple_walk_right.gif
+  artifactKey: Guid(8098445763e305841b4667833caeb06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/full version/enemies/bat/bat purple gifs/bat_purple_walk_right.gif using Guid(8098445763e305841b4667833caeb06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e15007492bc5b3e9e80d9d1c40f6a8') in 0.018539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png
+  artifactKey: Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png using Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2699f6e3cd29b1991166605554216b') in 0.018426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png
+  artifactKey: Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png using Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1638f6c618f0bcb1281473bf4d359dd5') in 0.016464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@3x.png
+  artifactKey: Guid(cee9dbe90b270c944ae1dabf41c93b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@3x.png using Guid(cee9dbe90b270c944ae1dabf41c93b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9217b761430d88939256ee378e0797b2') in 0.014594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/resource/full version/enemies/bat/bat purple gifs/bat_purple_walk_up.gif
+  artifactKey: Guid(9d070696ae4c97e4b9c1220c62094b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/full version/enemies/bat/bat purple gifs/bat_purple_walk_up.gif using Guid(9d070696ae4c97e4b9c1220c62094b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6996a32ecaf2cd2e1bcb36ef3d434b26') in 0.016921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/resource/full version/enemies/bat/bat black gifs/bat_black_walk_down.gif
+  artifactKey: Guid(fed8e8761f67d3b4e84d29cf44f7ac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/full version/enemies/bat/bat black gifs/bat_black_walk_down.gif using Guid(fed8e8761f67d3b4e84d29cf44f7ac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf9c5704a845566a2c5a8d1500ea95c') in 0.016515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/resource/full version/enemies/bat/bat_purple.png
+  artifactKey: Guid(7e7f9cbbf59003d43bd1ee395a8b844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/full version/enemies/bat/bat_purple.png using Guid(7e7f9cbbf59003d43bd1ee395a8b844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c66641abf173cebe0f3da84adf2633') in 0.017625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059832 seconds.
+  path: Assets/resource/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png
+  artifactKey: Guid(dbc624f7b3a644dcf989e434e63d9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png using Guid(dbc624f7b3a644dcf989e434e63d9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983b2da7ab6c93b14d52aabfb7543d79') in 0.020372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Hover.png
+  artifactKey: Guid(f41a1e8ab3cb47448ae6392770247991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Hover.png using Guid(f41a1e8ab3cb47448ae6392770247991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e170287591d794b9fb75f08f543eb379') in 0.021104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@4x.png
+  artifactKey: Guid(0ccc508108fa6ed4fa11b4a467d7f609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@4x.png using Guid(0ccc508108fa6ed4fa11b4a467d7f609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca86f9713b50432148c799681328f66') in 0.019541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red_9Slides_Pressed.png
+  artifactKey: Guid(e90e87dcceda2b64db678b8a33630c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red_9Slides_Pressed.png using Guid(e90e87dcceda2b64db678b8a33630c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612210c8b4eccb8d4210e15101797301') in 0.020893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_9Slides_Pressed.png
+  artifactKey: Guid(b8e14c8ceb325e646a812c785489beca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_9Slides_Pressed.png using Guid(b8e14c8ceb325e646a812c785489beca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0f2bfd33bab1dbc152f33d7216dfc3') in 0.019496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/resource/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-3.png
+  artifactKey: Guid(a1938ef5e3ea44afd9b1ca7a23b8f39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny RPG Forest/Artwork/sprites/misc/coin/coin-3.png using Guid(a1938ef5e3ea44afd9b1ca7a23b8f39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92961e44391c4cddde70de14231a7063') in 0.017493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@2x.png
+  artifactKey: Guid(25096ce515c063c48a2bd6b108c95912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@2x.png using Guid(25096ce515c063c48a2bd6b108c95912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b506d9e8ce72450ec67f56c7311bcd') in 0.017242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png
+  artifactKey: Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png using Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831f7f90d1f9201e116358cd681b9837') in 0.017677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Purple.png
+  artifactKey: Guid(933bfb23045937947b2e9826f3e66c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Purple.png using Guid(933bfb23045937947b2e9826f3e66c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64839c381647439587769c010622b6bd') in 0.022976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png
+  artifactKey: Guid(b92bd92450cd9ca41ad97a047031d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png using Guid(b92bd92450cd9ca41ad97a047031d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b76a61aba287955681c5471d290bcd') in 0.022875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png
+  artifactKey: Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png using Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc7c22bc3d70537ebbb1c517417b248') in 0.017292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red_3Slides_Pressed.png
+  artifactKey: Guid(a17d7e28f007ab04a9a8e01c7d19a609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red_3Slides_Pressed.png using Guid(a17d7e28f007ab04a9a8e01c7d19a609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497342d63e2bbcaadce702af7f94ed1b') in 0.017836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Carved_Regular.png
+  artifactKey: Guid(3386ed7361cad1f40b07d6d522f27807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Carved_Regular.png using Guid(3386ed7361cad1f40b07d6d522f27807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684d978b2f0ccb4ae643e63e1021a510') in 0.017766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Hover_9Slides.png
+  artifactKey: Guid(af382fa3352bc36449eb7bdb8409ccb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Hover_9Slides.png using Guid(af382fa3352bc36449eb7bdb8409ccb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10f87122572cd9fde6f0d500cb90fb9') in 0.022520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_9Slides.png
+  artifactKey: Guid(ce8768977718f8c409c33adf28513512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_9Slides.png using Guid(ce8768977718f8c409c33adf28513512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67904322da6321e572ec5c42ed524cd9') in 0.022884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red_9Slides.png
+  artifactKey: Guid(05087dc1d25ddda4da28d442eed100d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red_9Slides.png using Guid(05087dc1d25ddda4da28d442eed100d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03047a96b95bf0228bd548e48ba5ed95') in 0.020741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_3Slides_Pressed.png
+  artifactKey: Guid(500f363465f446e4084bf669e12453cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_3Slides_Pressed.png using Guid(500f363465f446e4084bf669e12453cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e5e06bd814a8d3836b9a7421880987') in 0.035140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red.png
+  artifactKey: Guid(03d2542a6b09fbf49a5b4dc7a80b650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red.png using Guid(03d2542a6b09fbf49a5b4dc7a80b650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c46ee74a3b2d82c1248e5aa7beaf42') in 0.023006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Hover_3Slides.png
+  artifactKey: Guid(add222316cabad9448223d3ae30bf5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Hover_3Slides.png using Guid(add222316cabad9448223d3ae30bf5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3066ba14cd24b55cff659cffd2471a') in 0.021935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Red.png
+  artifactKey: Guid(6ebc8b71fd228a847a78aaae53c5c45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Red.png using Guid(6ebc8b71fd228a847a78aaae53c5c45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b6f67c37d34d941faac0c327fdbbc9') in 0.024486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.821770 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy.png
+  artifactKey: Guid(42f4b048501996743958df91513f824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy.png using Guid(42f4b048501996743958df91513f824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9de59a927d076532c1f30928ae8f7a') in 0.021517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@3x.png
+  artifactKey: Guid(bb51334c6930f864abac38001f7bdf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@3x.png using Guid(bb51334c6930f864abac38001f7bdf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e868fe1a5637bb017ad4f185bc2c5948') in 0.019006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@3x.png
+  artifactKey: Guid(55ad4b6109677be42b239f450ce98c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@3x.png using Guid(55ad4b6109677be42b239f450ce98c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e006150e0f6cd9172a9b1d206250aa') in 0.015936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043435 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones.png
+  artifactKey: Guid(7b86a539750e1a44ca7ec5b7f690babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones.png using Guid(7b86a539750e1a44ca7ec5b7f690babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2762789c1f3139db8457f281b96856') in 0.029046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@2x.png
+  artifactKey: Guid(5b7f664b515582d458717c354f6be292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@2x.png using Guid(5b7f664b515582d458717c354f6be292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13de0da7ac43e88e21d3a9c0495d84b2') in 0.017881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101929 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones@4x.png
+  artifactKey: Guid(f618c5fe13b18994aa5aee8b97d8dca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones@4x.png using Guid(f618c5fe13b18994aa5aee8b97d8dca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f6530e1630d69607768f2d5c00fe86') in 0.049632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex.png
+  artifactKey: Guid(31f371f2dfe50c34081023094aed72c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex.png using Guid(31f371f2dfe50c34081023094aed72c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af6d00209f99cb1ab09b2f05ccdf264') in 0.017557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@2x.png
+  artifactKey: Guid(3b4e88f5705085042a95960cdcef2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@2x.png using Guid(3b4e88f5705085042a95960cdcef2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1a80d58607ff79aa1d73876b87a503') in 0.021539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.013715 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@2x.png
+  artifactKey: Guid(8afb57fea8c4eea4a8085e91c810380b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@2x.png using Guid(8afb57fea8c4eea4a8085e91c810380b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd810785824feeea5c381e8331870906e') in 0.026220 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
